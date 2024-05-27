@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Home = ({ visits, setVisits }) => {
   useEffect(() => {
     setVisits(visits + 1);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
